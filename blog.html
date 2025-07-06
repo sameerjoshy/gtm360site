@@ -7,109 +7,95 @@
   <meta name="description" content="Explore practical insights on RevOps, GTM, Sales, AI, and more from the GTM-360 team." />
   <meta property="og:title" content="GTM-360 | Blog" />
   <meta property="og:description" content="Explore practical insights on RevOps, GTM, Sales, AI, and more from the GTM-360 team." />
-  <meta property="og:image" content="assets/og.jpg" />
-  <meta property="og:url" content="https://www.gtm-360.com/blog.html" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="https://www.gtm-360.com/blog.html" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="icon" href="/assets/favicon-192.png" sizes="192x192">
-  <link rel="icon" href="/assets/favicon-512.png" sizes="512x512">
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/sakg7zz2xj";
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "sakg7zz2xj");
-  </script>
+  <meta property="og:type" content="website" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+    .blog-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
   </style>
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 font-sans leading-normal">
 
-<header class="bg-white shadow-sm sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <a href="index.html"><img src="assets/logo.png" alt="GTM-360 Logo" class="h-10"></a>
-    <nav class="space-x-6 text-sm font-semibold text-gray-700">
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="framework.html">Framework</a>
-      <a href="resources.html">Resources</a>
-      <a href="contact.html" class="text-indigo-600 hover:underline">Contact</a>
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 border-b">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="GTM-360 Logo" class="h-10 w-auto" />
+    </a>
+    <nav class="space-x-6 text-sm font-medium">
+      <a href="about.html" class="hover:text-blue-600">About</a>
+      <a href="services.html" class="hover:text-blue-600">Services</a>
+      <a href="framework.html" class="hover:text-blue-600">Framework</a>
+      <a href="resources.html" class="hover:text-blue-600">Resources</a>
+      <a href="contact.html" class="text-blue-600 font-semibold">Contact</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-<section class="bg-white py-24">
-  <div class="max-w-6xl mx-auto px-6">
-    <h1 class="text-5xl font-bold text-center mb-12">Insights & Ideas</h1>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+  <!-- Blog Section -->
+  <main class="py-16 px-6 md:px-20">
+    <h1 class="text-4xl font-bold mb-12 text-center">Insights & Ideas</h1>
 
-      <a href="revops-buzzword.html" class="block bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
-        <img src="assets/revops-buzzword.png" class="w-full h-48 object-cover" alt="RevOps Isn’t Just a Buzzword">
-        <div class="p-6">
-          <h2 class="text-xl font-semibold text-gray-900">RevOps Isn’t Just a Buzzword</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Blog 1 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/blog1.jpg" alt="Team collaborating with laptops" class="blog-card-img">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold mb-2">RevOps Isn’t Just a Buzzword</h2>
+          <p class="text-gray-700 text-sm mb-4">Why companies that align strategy, systems, and execution are leaving everyone else behind.</p>
+          <a href="blog-revops.html" class="text-blue-600 font-medium hover:underline">Read More →</a>
         </div>
-      </a>
+      </div>
 
-      <a href="ai-sales-use-cases.html" class="block bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
-        <img src="assets/ai-sales-use-cases.png" class="w-full h-48 object-cover" alt="AI in Sales: 5 Use Cases That Actually Work">
-        <div class="p-6">
-          <h2 class="text-xl font-semibold text-gray-900">AI in Sales: 5 Use Cases That Actually Work</h2>
+      <!-- Blog 2 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/blog2.jpg" alt="Analytics dashboard on laptop screen" class="blog-card-img">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold mb-2">The Hidden Cost of Poor GTM Strategy</h2>
+          <p class="text-gray-700 text-sm mb-4">You don’t have a pipeline problem. You have a focus problem. Here’s how to fix it.</p>
+          <a href="blog-gtmstrategy.html" class="text-blue-600 font-medium hover:underline">Read More →</a>
         </div>
-      </a>
+      </div>
 
-      <a href="gtm-metrics.html" class="block bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
-        <img src="assets/gtm-metrics.png" class="w-full h-48 object-cover" alt="From Funnel to Flywheel: Modern GTM Metrics That Matter">
-        <div class="p-6">
-          <h2 class="text-xl font-semibold text-gray-900">From Funnel to Flywheel: Modern GTM Metrics That Matter</h2>
+      <!-- Blog 3 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/blog3.jpg" alt="Person gesturing during a GTM discussion" class="blog-card-img">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold mb-2">Segmentation Strategy: Why Most Startups Get It Wrong</h2>
+          <p class="text-gray-700 text-sm mb-4">Good segmentation is not about slicing a list—it’s about aligning your team’s energy with revenue potential.</p>
+          <a href="blog-segmentation.html" class="text-blue-600 font-medium hover:underline">Read More →</a>
         </div>
-      </a>
+      </div>
 
-      <a href="gtm-messaging.html" class="block bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
-        <img src="assets/gtm-messaging.png" class="w-full h-48 object-cover" alt="Messaging Isn’t Copy — It’s How You Sell">
-        <div class="p-6">
-          <h2 class="text-xl font-semibold text-gray-900">Messaging Isn’t Copy — It’s How You Sell</h2>
+      <!-- Blog 4 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/blog4.jpg" alt="Point-of-sale system representing automation" class="blog-card-img">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold mb-2">AI Will Expose Your GTM Gaps</h2>
+          <p class="text-gray-700 text-sm mb-4">If your systems are broken, AI won’t save you—it will magnify what’s broken. Fix the fundamentals first.</p>
+          <a href="blog-ai.html" class="text-blue-600 font-medium hover:underline">Read More →</a>
         </div>
-      </a>
+      </div>
 
-      <a href="customer-success-early.html" class="block bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-xl transition duration-300">
-        <img src="assets/customer-success-early.png" class="w-full h-48 object-cover" alt="Customer Success Starts Before the Deal Closes">
-        <div class="p-6">
-          <h2 class="text-xl font-semibold text-gray-900">Customer Success Starts Before the Deal Closes</h2>
+      <!-- Blog 5 -->
+      <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <img src="assets/blog5.jpg" alt="Hands writing on paper surrounded by laptops" class="blog-card-img">
+        <div class="p-5">
+          <h2 class="text-xl font-semibold mb-2">Is Your GTM Org Setup to Win?</h2>
+          <p class="text-gray-700 text-sm mb-4">Most org charts are drawn by title, not by value creation. That’s a problem. Here’s how to rethink GTM design.</p>
+          <a href="blog-orgdesign.html" class="text-blue-600 font-medium hover:underline">Read More →</a>
         </div>
-      </a>
+      </div>
 
     </div>
-  </div>
-</section>
+  </main>
 
-<footer class="bg-gray-50 border-t mt-24">
-  <div class="max-w-7xl mx-auto px-6 py-12 text-sm text-gray-500 space-y-4">
-    <div class="flex flex-wrap justify-between">
-      <div>
-        <p class="font-semibold text-gray-900">GTM-360</p>
-        <p>Strategy. Execution. Scale.</p>
-      </div>
-      <div class="space-x-4">
-        <a href="https://www.linkedin.com/" target="_blank" class="hover:text-gray-700">LinkedIn</a>
-        <a href="contact.html" class="hover:text-gray-700">Contact</a>
-      </div>
-    </div>
-    <p class="text-xs">© 2025 GTM-360. All rights reserved.</p>
-  </div>
-</footer>
-
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(() => console.log('✅ Service Worker Registered'))
-      .catch(error => console.error('❌ Registration Failed', error));
-  }
-</script>
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500 border-t mt-16">
+    © 2025 GTM-360. All rights reserved.
+  </footer>
 
 </body>
 </html>
