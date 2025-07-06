@@ -1,0 +1,21 @@
+{
+  "name": "GTM-360",
+  "short_name": "GTM360",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "GTM-360 is a modern go-to-market consulting firm focused on RevOps, Sales, and Strategy.",
+  "icons": [
+    {
+      "src": "assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
